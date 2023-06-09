@@ -17,3 +17,6 @@ scrape_configs:
     static_configs:
     - targets: ['192.168.99.100:8080']
     
+    
+#run this file:    
+#docker run -p 9090:9090 -v /Users/lnarcisoov/dev/eclipse-workspace/ms-exp-grafana-prometheus/src/main/resources/prometheus.yml prom/prometheus
